@@ -46,10 +46,10 @@ sudo chmod +x /usr/local/bin/sys_monitor.sh
 sudo crontab -e
 # */10 * * * * /usr/local/bin/sys_monitor.sh```
 
-_3.3 Verification_
+### 3.3 Verification ###
 tail -n 20 /var/log/sys_monitor.log
 
-**3.4 Screenshots**
+### 3.4 Screenshots ###
 
 ## 4. Task 2 — User Management & Access Control
 
@@ -61,3 +61,4 @@ Set restrictive permissions so only each user can access their workspace.
 Enforced password expiry to 30 days with chage.
 
 Configured PAM password complexity with pam_pwquality.
+
